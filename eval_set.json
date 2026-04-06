@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "input": {
+      "recipient_name": "Sarah",
+      "meeting_topic": "Marketing campaign planning",
+      "notes": [
+        "Discussed Q2 marketing strategy",
+        "Agreed to focus on social media ads",
+        "John will prepare budget proposal by next Monday",
+        "Team will review campaign ideas next Wednesday"
+      ]
+    },
+    "expected_behavior": "The email should thank Sarah, briefly summarize the discussion about Q2 marketing strategy, and clearly mention the next steps with deadlines."
+  },
+  {
+    "id": 2,
+    "input": {
+      "recipient_name": "David",
+      "meeting_topic": "Client onboarding",
+      "notes": [
+        "Introduced onboarding process",
+        "Client had questions about timeline",
+        "Need to send onboarding documents",
+        "Follow up by Friday"
+      ]
+    },
+    "expected_behavior": "The email should be polite and professional, summarize onboarding discussion, and clearly state that documents will be sent and a follow-up will happen by Friday."
+  },
+  {
+    "id": 3,
+    "input": {
+      "recipient_name": "Emily",
+      "meeting_topic": "Project delay discussion",
+      "notes": [
+        "Project behind schedule",
+        "Delay caused by supplier issue",
+        "New deadline not finalized",
+        "Need internal discussion before confirming timeline"
+      ]
+    },
+    "expected_behavior": "The email should carefully summarize the delay without sounding too negative, avoid making up a new deadline, and indicate that timeline will be confirmed later."
+  },
+  {
+    "id": 4,
+    "input": {
+      "recipient_name": "Michael",
+      "meeting_topic": "Weekly check-in",
+      "notes": []
+    },
+    "expected_behavior": "The email should still produce a reasonable follow-up even with minimal information, such as a general thank-you and a brief mention of staying aligned, without hallucinating specific details."
+  },
+  {
+    "id": 5,
+    "input": {
+      "recipient_name": "Lisa",
+      "meeting_topic": "Budget review",
+      "notes": [
+        "Numbers unclear",
+        "Some data missing",
+        "Need finance team confirmation",
+        "Possible cost reduction discussed but not confirmed"
+      ]
+    },
+    "expected_behavior": "The email should reflect uncertainty clearly, avoid inventing details, and mention that further confirmation is needed before final decisions."
+  }
+]
