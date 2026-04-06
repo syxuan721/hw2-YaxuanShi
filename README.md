@@ -1,11 +1,16 @@
-## Workflow Definition
+## Choose a business workflow and define the task
 
-This project focuses on generating employee-facing answers based on internal reimbursement and policy notes.
+### Chosen workflow
+For this project, I chose a workflow that generates follow-up emails after meetings.
 
-The user is an internal employee or support staff who needs to respond to reimbursement-related questions. Instead of writing answers from scratch, they can use this system to draft a response based on existing internal notes.
+### Who the user is
+The user is someone like an intern, student worker, or junior employee who joins meetings and needs to send professional emails afterwards.
 
-The system takes two types of input: a set of internal policy notes (which may be incomplete or loosely written) and a user question related to reimbursement.
+### What input the system receives
+The system takes short meeting notes as input. These notes may include the meeting topic, the main points discussed, action items, deadlines, and the name of the person receiving the email.
 
-The output is a clear, professional answer that can be shared with employees. The response should follow the tone of internal communication and avoid making assumptions beyond the provided notes.
+### What output the system should produce
+The system should generate a short and professional follow-up email. The email should thank the recipient, briefly summarize the meeting, and clearly mention the next steps.
 
-This task is valuable because reimbursement-related questions are common and often repetitive. Automating the first draft can save time and improve consistency. However, since policy interpretation can be sensitive, the system may still require human review in certain cases.
+### Why this task is valuable enough to automate or partially automate
+I think this task is useful to automate because it is a common part of business communication and it happens repeatedly. Writing these emails from scratch can take time, especially when the notes are messy or incomplete. An LLM can help turn rough notes into a polished first draft, while still leaving room for human review before sending.
