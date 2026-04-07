@@ -14,3 +14,6 @@ The system should generate a short and professional follow-up email. The email s
 
 ### Why this task is valuable enough to automate or partially automate
 I think this task is useful to automate because it is a common part of business communication and it happens repeatedly. Writing these emails from scratch can take time, especially when the notes are messy or incomplete. An LLM can help turn rough notes into a polished first draft, while still leaving room for human review before sending.
+
+### The video link 
+The link is: https://youtu.be/kOomyAt6PPg
